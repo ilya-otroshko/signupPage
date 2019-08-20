@@ -1,0 +1,322 @@
+*, *::before, *::after
+{
+    box-sizing:border-box;
+}
+html
+{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1340px;
+    margin: 0 auto;
+}
+main
+{
+    display: flex;
+    justify-content: center;
+    padding: 0 10px;
+    margin-top: 100px;
+}
+h1
+{
+    font-size: 25px;
+    font-weight: normal;
+}
+#mainForm
+{ 
+   text-align: center;
+}
+#mainForm p:not(#afterButton)
+{
+    color: grey;
+}
+section
+{
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    padding: 80px 0px;
+}
+article
+{
+    margin-bottom: 20px;
+}
+
+.column
+{
+    flex: 0 1 450px;
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+
+h2
+{
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+section p
+{
+    line-height: 23px;  
+    color: grey;
+}
+#textHeader
+{
+    color: black;
+}
+header i
+{
+    color:#00adff;
+    font-size: 18px;
+}
+a
+{
+    color:#00adff;
+    text-decoration: none;
+}
+#signUp
+{
+    background: white;
+    width: 100%;
+    padding: 16px 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px; 
+    box-shadow: 0 0 1px 0 rgba(0,0,0,0.12), 0 1px 3px 0 rgba(0,0,0,0.24);
+    box-sizing: border-box;
+    text-align: left;
+    font-size: 16px;
+    color: #2A2D35;
+    margin-top: 25px;
+}
+#signUp i
+{
+    margin-right: 10px;
+    font-size: 18px;
+}
+form
+{
+    margin: 0 auto;
+    margin-top: 30px;
+    max-width: 425px;
+}
+.line
+{
+    margin-top: 35px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-top: 1px solid #8080804d;
+    overflow: visible;
+    width: 100%;
+    margin-bottom: -13px;
+}
+#inLine
+{ 
+    padding: 0px 5px;   
+    font-style: italic;
+    background: white;
+    color:#8080804d
+}
+
+.case
+{
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+}
+
+.case input
+{
+    padding: 10px 5px 10px 20px;
+    width: 100%;
+    border: 1px solid #D6DADE;
+    box-shadow: none;
+    display: flex;
+    font-size: 13px;
+}
+
+.name
+{
+    margin:15px 0px;  
+}
+#setPassword
+{
+    margin:15px 0px;
+    width: 100%;
+}
+select
+{
+    display: flex;
+    background:white;
+    width: 100%;
+    padding: 10px 5px 10px 5px;
+    border: 1px solid #D6DADE;
+    box-shadow: none;
+}
+label
+{
+    font-size: 14px;
+    color: #403f3f;
+}
+
+
+#create 
+{
+    background-color: #3EA9F5;
+    width: 100%;
+    height: 50px;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    margin-top: 25px;
+    padding: 0px 15px;
+    white-space: nowrap;
+    font-size: 16px;
+    cursor: pointer;
+}
+#create:hover
+{
+    background: white;
+    color:#3EA9F5;
+    border: 2px solid #3EA9F5;
+    transition: .3s;
+}
+#afterButton
+{
+    color:#9CA8B7;
+    font-size: 14px;
+    text-align: center;
+    margin: 20px 0px;
+    display: flex;
+    justify-content: center;
+    line-height: 20px;
+}
+footer
+{
+    display: flex;
+}
+#follow
+{
+    padding: 90px 60px;
+    margin-top: 50px;
+}
+#follow p:first-child
+{
+    font-size: 30px;
+    font-weight: 400;
+}
+#follow a
+{
+   color:#56BE8E;
+}
+#follow a:hover
+{
+    text-decoration: underline #56BE8E;
+}
+#nav
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: wrap;
+    width: 100%;
+    padding: 90px 60px;
+}
+.footerNav
+{
+    padding: 50px;
+}
+.footerNav ul
+{
+   padding: 0;
+}
+.footerNav li
+{
+    list-style: none;
+}
+.footerNav a
+{
+    color: #363945;
+    font-size: 15px;
+    line-height: 26px;
+}
+.footerNav a:hover
+{
+
+    font-weight: bold;
+}
+.footerNav i
+{
+    font-size: 20px;
+}
+h3
+{
+    color: #9CA8B7;
+    font-size: 12px;
+}
+
+hr
+{
+    border: none;
+    border-left: 1px solid #2A2D35;
+    height: 200px;
+    margin: 100px 0;
+    opacity: .1;
+    width: 1px;
+}
+#iconLink
+{
+    display: none;
+    justify-content: center;
+
+}
+#iconLink a
+{
+    padding: 5px 13px;
+    background: #56BE8E;
+    border-radius: 50%;
+    color: white;
+    font-size: 21px;
+    margin: 8px;
+    border: 1px solid #56BE8E;
+}
+#iconLink a:hover
+{
+    color: #56BE8E;
+    background: white;
+}
+@media screen and (max-width:1530px)
+{
+    .footerNav {width: 50%; margin: 0;padding: 15px;}
+    hr {display: none;}
+}
+@media screen and (max-width:1070px)
+{
+    footer {flex-direction: column;}
+    #nav {flex-flow: row;}
+    #follow {display: flex; justify-content: center; padding: 0px; margin-top: 20px; text-align: center;}
+    #follow p:last-child{display: none;}
+    #iconLink{display: flex;}
+}
+@media screen and (max-width:900px)
+{
+    section{max-width: 450px; flex-direction: column;}   
+}
+@media screen and (max-width:680px)
+{
+    #nav {flex-flow: wrap;}
+}
+@media screen and (max-width:405px)
+{
+    .case {flex-direction: column;}
+}
+
+
