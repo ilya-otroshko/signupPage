@@ -280,13 +280,17 @@ hr
 }
 #iconLink a
 {
-    padding: 5px 13px;
     background: #56BE8E;
     border-radius: 50%;
     color: white;
     font-size: 21px;
     margin: 8px;
     border: 1px solid #56BE8E;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #iconLink a:hover
 {
