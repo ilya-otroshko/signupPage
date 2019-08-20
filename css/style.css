@@ -182,13 +182,13 @@ label
     white-space: nowrap;
     font-size: 16px;
     cursor: pointer;
+    transition: .3s;
 }
 #create:hover
 {
     background: white;
     color:#3EA9F5;
-    border: 2px solid #3EA9F5;
-    transition: .3s;
+    border: 2px solid #3EA9F5;  
 }
 #afterButton
 {
